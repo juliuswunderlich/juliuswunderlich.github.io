@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/style.css">
     <title>home@juliuswunderlich</title>
 </head>
 <body>
@@ -18,19 +19,23 @@
           <a href="https://twitter.com/wunderj1" id="twitter">
             <img src="assets/twitter.svg" id="twitter-svg">
           </a>
-        </div>
-        <div class="col-sm">
           <a href="mailto:julius.wunderlich@web.de" id="email">
             <img src="assets/email.svg" id="email-svg">
           </a>
         </div>
-      </div>
     </div>
   </header>
+
+  <div class="container" id="description">
+    <h2>About me...</h2>
+    <p>
+      I am currently a M.Sc. Computer Science student at the University of Augsburg.
+    </p>
+  </div>
   
   <div class="container" id="content">
-    <div class="row">
-      <section id="certificates">
+    <div class="row justify-content-center">
+      <section class="col-4" id="certificates">
         <h2>Certificates</h2>
         <ul>
           <li>Scrum Master I</li>
@@ -38,13 +43,14 @@
           <li>SSI Open Water Diver</li>
         </ul>
       </section>
-      <section id="github">
+      <section class="col-4" id="github">
         <h2>GitHub</h2>
         <ul>
           <li>fondly maintained dotfiles</li>
           <li>pure js implementation of boid's algorithm</li>
         </ul>
       </section>
+
     </div>
   </div>
 
